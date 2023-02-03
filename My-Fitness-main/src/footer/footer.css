@@ -1,0 +1,17 @@
+
+footer{
+ font-size: x-large;
+ margin-top: 12px;
+ background-color: white;
+ position: relative;
+}
+footer i{
+    margin: 4px;
+    cursor: pointer;
+}
+footer a{
+    color: black;
+}
+footer a :hover{
+    color: gray;
+}

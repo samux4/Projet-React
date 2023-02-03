@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+.right-justified1{
+    margin-left: 430px;
+    margin-top: 15px;
+    width: 814px;
+    height: 554.9px;
+    border-radius: 16px;
+}
+.right-justified1 h1{
+    margin-left: 80px;
+    font-size: 47px;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 30px;
+}
+.textxx p{
+    font-family: 'Italianno', cursive;
+    font-size: 36px;
+}
+.blanc{
+    width: 389px;
+    margin-left: 15px;
+    height: 568px;
+    position: absolute;
+    top: 0;
+    background-color: aliceblue;
+    margin-top: 85px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid #000000;
+    border-radius: 11px;
+}
+    
+.line{
+    width: 9px;
+    height: 547px;
+    background-color: #031CFF;
+    margin-top: 10px;
+    margin-left: 6px;
+    border-radius: 6px;
+}
+.blanc h1{
+    top: 0;
+    position: absolute;
+    font-size: 35px;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+.blanc ul{
+    top: 0;
+    position: absolute;
+    font-size: 22px;
+    
+    margin-top: 80px;
+    margin-left: 36px;
+}
+.blanc p{
+    font-weight: 600;
+}

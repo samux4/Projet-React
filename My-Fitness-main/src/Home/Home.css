@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@700&family=Assistant:wght@600;700&display=swap');
+.container h1{
+    font-weight: bolder;
+    padding-top: 20px;
+    font-family: 'Assistant', sans-serif;
+}
+.profile-icon{
+    font-size: 40px;   
+}
+
+img{
+    width: 676px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 2px -2px #999;
+}
+.items a{
+    text-decoration: none;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-top: 15px;
+    margin-left: 100px;
+    box-shadow: 0 4px 2px -2px #999;
+}
+.items{
+    margin-top: 60px;
+}

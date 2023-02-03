@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@700&family=Assistant:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+.navbar-brand{
+
+  font-family: 'Allan', cursive;
+  font-size: 45px;    
+  
+    
+}
+.navbar {
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 4px 2px -2px #999;
+    background-color: #E9E3E2;
+    font-size: x-large;
+    font-weight: bold;
+}
+body{
+    background-color: #F8EFEC;
+}
+
+
+.nav-item{
+    font-family: 'Assistant', sans-serif;
+   
+}
+.login{
+   border-radius: 9px;
+   font-size: 17px;
+   margin-right: 5px;
+   margin-bottom: 7px;
+   font-weight: bold;
+   
+}
+
+
+#check-box{
+  text-align: left;
+  margin-bottom: 9px;
+  font-size: large;
+ 
+
+}
+h2{
+  font-family: 'Kanit', sans-serif;
+}
+
+.containerr {
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+  height: 100vh;  
+}
+
+#signin-form {
+  justify-content: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 1000;
+}
+
+  #signin-form label {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: black;
+    font-family: 'Kanit', sans-serif;
+    text-align: left;
+  }
+  
+  #signin-form input[type="email"],
+  #signin-form input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(109, 106, 106);
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    outline: none;
+    transition: 0.2s;
+  }
+  
+  #signin-form input[type="email"]:focus,
+  #signin-form input[type="password"]:focus {
+    border: 3px solid #1926bc; 
+  }
+  
+  #signin-form input[type="submit"] {
+    width: 100%;
+    background-color: #1926bc; 
+    color: white;
+    padding: 14px 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: large;
+    outline: none;
+    font-family: 'Kanit', sans-serif;
+    
+  }
+  
+  #signin-form input[type="submit"]:hover {
+    background-color: #3C35A2; 
+    
+    
+  }
+  #popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8px);
+    z-index: 999;
+  }
